@@ -1,0 +1,383 @@
+/*==========  Desktop First Method  ==========*/
+@media only screen and (max-width : 1390px) {
+	.item-advantage {
+		width: 31%;
+	}
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.header .logo img { 
+		width: 150px;
+	}
+	.menu {
+		font-size: 13px;
+		padding: 0 5px;
+	}
+	.phone-main {
+		font-size: 14px;
+	}
+	.list-social li {
+		margin-left: 5px;
+	}
+	.title-big {
+		font-size: 50px;
+	}
+	.billbord .title-section {
+		font-size: 24px;
+		line-height: 37px;
+	}
+	.billbord {
+		padding-top: 75px;
+		min-height: 620px;
+	}
+	.item-condition {
+		font-size: 15px;
+	}
+	.about p {
+		line-height: 21px;
+		font-size: 14px;
+	}
+	.title-section {
+		font-size: 30px;
+		line-height: 43px;
+	}
+	.about .title-section {
+		padding-bottom: 9px;
+	}
+	.descr-about {
+		padding: 25px 35px;
+		font-size: 19px;
+	}
+	.about {
+		padding-bottom: 50px;
+	}
+	.item-advantage {
+		margin-top: 35px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.menu {
+		display: none;
+		position: absolute;
+		top: 100%;
+		font-size: 14px;
+		left: 0;
+		padding: 0;
+		overflow: auto;
+		width: 100%;
+		    background-color: #5ed7ff;
+    background-image: linear-gradient(90.0deg, #5ed7ff 0%, #2535ff 100%);
+	}
+	.menu li a {
+		padding: 10px 15px;
+		border-bottom: 1px solid #fff;
+		display: block;
+	}
+	.header {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: 1000;
+	}
+	.wrapper {
+		padding-top: 64px;
+	}
+	.btn_nav {
+		margin-left: 15px;
+		display: inline-block;
+	}
+	.list-social li {
+		margin-left: 15px;
+	}
+	.billbord {
+		padding-top: 25px;
+		min-height: initial;
+		padding-bottom: 50px;
+	}
+	.item-advantage {
+		padding-left: 15px;
+		padding-right: 15px;
+		line-height: 21px;
+	}
+	body {
+		font-size: 14px;
+	}
+	.advantages {
+		padding-bottom: 60px;
+	}
+	.conditions {
+		padding-bottom: 50px;
+		min-height: initial;
+		background-image: none;
+	}
+	.item-condition {
+		margin-top: 20px;
+	}
+	.about .block-form_consult {
+		top: 0;
+		margin-bottom: 40px;
+	}
+	.about {
+		padding-top: 50px;
+	}
+	.descr-about {
+		margin-top: 25px;
+	}
+	.descr-about::before {
+		width: 100%;
+		height: 150%;
+	}
+	.about__image {
+		margin-top: 0;
+	}
+	.item-about__number {
+		font-size: 32px;
+	}
+	.item-about {
+		margin-top: 35px;
+	}
+	.contacts .container {
+		position: static;
+	}
+	.contacts {
+		position: relative;
+	}
+	.contacts-block {
+		left: 0;
+	}
+	.block-form_consult .descr-title {
+		padding-bottom: 24px;
+	}
+	.block-form_consult {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.conditions__right {
+		margin-left: 0;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.title-big {
+		font-size: 40px;
+	}
+	.billbord .title-section {
+		font-size: 19px;
+		line-height: 29px;
+	}
+	.billbord {
+		text-align: center;
+		background-position: center right;
+	}
+	.billbord .flex-right {
+		padding-top: 40px;
+		justify-content: center;
+	}
+	.slider-catalog .slick-prev {
+		left: 0;
+	}
+	.slider-catalog .slick-next {
+		right: 0;
+	}
+	.slider-catalog .item-product {
+		max-width: 320px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.title-section_page {
+		padding-top: 30px;
+	}
+	.title-section {
+		font-size: 26px;
+		line-height: 34px;
+	}
+	.item-advantage {
+		width: 47%;
+	}
+	.item-condition {
+		font-size: 14px;
+	}
+	.item-condition__icon {
+		width: 60px;
+		height: 60px;
+		padding: 10px;
+	}
+	.block-form_consult .item-form {
+		margin-bottom: 22px;
+	}
+	.about .block-form_consult {
+		margin-bottom: 50px;
+	}
+	.about__image {
+		height: 290px;
+	}
+	.about-items {
+		flex-wrap: wrap;
+	}
+	.item-about {
+		width: 33%;
+		margin-top: 30px;
+	}
+	.contacts-block {
+		padding-top: 30px;
+		padding-bottom: 25px;
+		position: relative;
+		width: initial;
+		max-width: initial;
+		border-radius: 0;
+		margin: 0 -15px;
+		height: initial;
+	}
+	.contacts-block .logo {
+		margin-bottom: 20px;
+	}
+	.footer__bottom .row > div {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		text-align: center;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.header .phone-main {
+		font-size: 0;
+	}
+	.header .phone-main i {
+		font-size: 20px;
+		display: inline-block;
+	}
+	.header .list-social {
+		display: none;
+	}
+	.title-big {
+		font-size: 31px;
+	}
+	.billbord .title-section {
+		font-size: 16px;
+		line-height: 24px;
+		padding-top: 10px;
+	}
+	.billbord .flex-right {
+		display: block;
+	}
+	.block-form__title {
+		font-size: 19px;
+		padding-bottom: 20px;
+	}
+	.block-form {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.checkbox-wrap .checkbox {
+		white-space: normal;
+	}
+	.btn-main {
+		font-size: 16px;
+	}
+	.checkbox {
+		margin-top: 18px;
+	}
+	.block-form .btn-main {
+		margin-top: 0;
+	}
+	.slider-catalog {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	.slider-catalog .slick-slide {
+		padding: 0 15px;
+	}
+	.slider-catalog  .slick-dots {
+		bottom: 11px;
+	}
+	.catalog {
+		padding-bottom: 25px;
+	}
+	.item-advantage {
+		width: 100%;
+		margin-top: 25px;
+	}
+	.advantages {
+		padding-bottom: 50px;
+	}
+	.row_conditions > div {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.item-condition {
+		margin-top: 15px;
+	}
+	.block-form_consult .title-section_page {
+		font-size: 22px;
+		line-height: 26px;
+	}
+	.descr-about {
+		padding: 19px 18px;
+		font-size: 17px;
+		line-height: 25px;
+	}
+	.about__image {
+		height: 233px;
+		border-radius: 0px 26px;
+	}
+	.about__image img {
+		border-radius: 0px 26px;
+	}
+	.item-about {
+		width: 50%;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+.menu {
+	display: flex !important;
+	height: initial !important;
+}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+@media (min-width: 1390px) {
+	.container {
+		max-width: 1390px;
+	}
+}
+@media (min-width: 1600px) {
+	.container {
+		max-width: 1390px;
+	}
+}
