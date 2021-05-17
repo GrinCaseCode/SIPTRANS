@@ -3,6 +3,13 @@
 	.item-advantage {
 		width: 31%;
 	}
+	.features-wrap .item-feature {
+		font-size: 12px;
+	}
+	.card__right {
+    padding-left: 40px;
+    padding-right: 40px;
+}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -12,7 +19,7 @@
 	.menu {
 		font-size: 13px;
 		padding: 0 5px;
-	}
+	} 
 	.phone-main { 
 		font-size: 14px;
 	}
@@ -54,6 +61,31 @@
 	.item-advantage {
 		margin-top: 35px;
 	}
+	.features-wrap .item-feature {
+    font-size: 14px;
+}
+.item-catalog {
+	max-width: 700px;
+	margin: 0 auto;
+}
+.card__right {
+	padding-top: 30px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.table-block__documents table td {
+	width: 60%;
+}
+.title-middle {
+    font-size: 26px;
+    }
+    .cost {
+    	padding-left: 50px;
+    	padding-right: 50px;
+    }
+    .slider-for__img {
+    	height: 300px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -158,7 +190,22 @@
 	.conditions__right {
 		margin-left: 0;
 	}
-
+	.slider-card-wrap {
+		max-width: 500px;
+		padding-bottom: 30px;
+		margin: 0 auto;
+	}
+.cost {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.item-price__head {
+    font-size: 17px;
+    margin-bottom: 10px;
+    }
+    .item-price__value {
+    font-size: 20px;
+}
 }
 
 /* Small Devices, Tablets */
@@ -241,6 +288,66 @@
 		padding-bottom: 10px;
 		text-align: center;
 	}
+	.item-price__head {
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+.item-price__value {
+    font-size: 19px;
+    margin-bottom: 4px;
+    }
+    .item-price__descr {
+    font-size: 14px;
+}
+.features-wrap {
+	max-width: 100%;
+}
+.item-catalog .btn-main {
+	max-width: 100%;
+}
+.row_catalog > div {
+	margin-bottom: 25px;
+}
+.item-catalog {
+	max-width: 450px;
+}
+.item-catalog__date {
+	margin-top: 15px;
+}
+.slider-nav__img {
+	height: 88px;
+}
+.text-bottom__card,
+.card-item .features-wrap {
+	max-width: 100%;
+}
+.total-card span {
+    margin-left: 23px;
+    font-size: 25px;
+    }
+    .card__right {
+    	padding-left: 30px;
+    	padding-right: 30px;
+    }
+    .price-left {
+    	width: 100%;
+    	padding-bottom: 15px;
+    }
+    .cost .prices-wrap {
+    	    	margin-bottom: 20px;
+    	padding-bottom: 20px;
+    	flex-wrap: wrap;
+    }
+    .cost .title-middle {
+    padding-bottom: 20px;
+}
+.title-middle {
+    font-size: 23px;
+}
+.table-block__documents {
+	padding-left: 20px;
+	padding-right: 20px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -334,6 +441,86 @@
 	.item-about {
 		width: 50%;
 	}
+	.item-catalog__image {
+    height: 210px;
+}
+.item-catalog__name {
+    font-size: 25px;
+    }
+    .item-catalog__date {
+    margin-top: 12px;
+}
+.features-wrap .item-feature {
+    font-size: 12px;
+        margin-top: 15px;
+}
+.item-price__head {
+    font-size: 12px;
+    }
+    .item-price__value {
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+.item-price__descr {
+    font-size: 12px;
+}
+.item-catalog .prices-wrap {
+    margin-top: 18px;
+}
+.catalog-page {
+    padding-bottom: 35px;
+    }
+    .card-item {
+    	padding: 15px;
+    }
+    .slider-for__img {
+    height: 210px;
+}
+.slider-nav__item {
+	padding: 0 5px;
+}
+.slider-nav__img {
+    height: 70px;
+}
+.slider-nav {
+	padding: 0;
+}
+.slider-nav .slick-prev {
+	left: -23px;
+}
+.slider-nav .slick-next {
+	right: -23px;
+}
+.checkbox_main {
+	margin-top: 10px;
+}
+.card__right {
+	padding-top: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.cost {
+	margin-top: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.documents .title-middle {
+	padding-top: 0;
+}
+.title-min {
+    font-size: 14px;
+    }
+    .table-block__documents .table-title {
+    	margin-bottom: 23px;
+    }
+    .table-block__documents table td {
+    	padding-right: 10px;
+    }
+    .table-block__documents {
+    	padding-left: 15px;
+    	padding-right: 15px;
+    	padding-bottom: 20px;
+    }
 }
 
 /* Custom, iPhone Retina */
