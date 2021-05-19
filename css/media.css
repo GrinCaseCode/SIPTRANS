@@ -10,6 +10,12 @@
     padding-left: 40px;
     padding-right: 40px;
 }
+.contacts-page-block__right {
+    padding-left: 42px;
+}
+.contacts-page-block {
+	margin-right: 0;
+}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -85,6 +91,31 @@
     }
     .slider-for__img {
     	height: 300px;
+    }
+.contacts-page-block {
+    padding: 25px 15px;
+    font-size: 14px;
+    line-height: 21px;
+}
+.contacts-page-block__center {
+    padding-left: 15px;
+}
+.contacts-page-block__right {
+    padding-left: 15px;
+}
+.title-small {
+    font-size: 16px;
+    }
+    .block-form_simple {
+    	padding-left: 20px;
+    	padding-right: 20px;
+    }
+    .block-form_simple .checkbox {
+    	white-space: normal;
+    }
+    .block-form_payment {
+    	padding-left: 20px;
+    	padding-right: 20px;
     }
 }
 
@@ -205,6 +236,21 @@
     }
     .item-price__value {
     font-size: 20px;
+}
+.about_page {
+	padding-top: 30px;
+}
+.block-form_simple {
+	margin: 0 auto;
+	margin-top: 25px;
+}
+.contacts-page {
+	padding-bottom: 60px;
+}
+.block-form_payment {
+	margin-top: 25px;
+	padding-left: 60px;
+	padding-right: 60px;
 }
 }
 
@@ -345,6 +391,27 @@
     font-size: 23px;
 }
 .table-block__documents {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.contacts-page-block__center {
+	order: 2;
+}
+.contacts-page-block .title-small {
+    padding-top: 22px;
+}
+.block-form_simple {
+	max-width: 100%;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+.payment {
+	padding-top: 30px;
+}
+.row_payment {
+	margin-top: 30px;
+}
+.block-form_payment {
 	padding-left: 20px;
 	padding-right: 20px;
 }
@@ -520,6 +587,44 @@
     	padding-left: 15px;
     	padding-right: 15px;
     	padding-bottom: 20px;
+    }
+    .advantages_page .title-section_page {
+    padding-top: 30px;
+}
+.contacts-page {
+	padding-top: 35px;
+}
+.contacts-page-block .row > div {
+	    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.contacts-page-block .title-small:first-of-type {
+    padding-top: 15px;
+}
+.contacts-page-block { 
+	padding-top: 10px;
+}
+.block-form_simple {
+	padding-left: 15px;
+	padding-right: 15px;
+} 
+.descr-middle {
+    padding-top: 12px;
+    padding-bottom: 14px;
+    }
+    .payment p {
+    line-height: 22px;
+}
+.payment__image img {
+    border-radius: 0px 25px;
+    }
+    .block-form_payment .row > div {
+    	    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
     }
 }
 

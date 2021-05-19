@@ -1443,3 +1443,177 @@ padding: 0 10px;
     padding-left: 70px;
     padding-right: 83px;
 }
+.about_page {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #fff;
+}
+.advantages_page {
+	padding-bottom: 60px;
+}
+.advantages_page .title-section_page {
+	padding-top: 45px;
+}
+.title-small {
+	font-size: 18px;
+	padding-bottom: 15px;
+font-weight: 700;
+color: #3a3a3a;
+}
+.contacts-page-block {
+	padding: 25px 35px;
+	margin-right: -70px;
+	background-color: #ffffff;
+box-shadow: 0px 7px 15px 0px rgba(58,58,58,0.15);
+border-radius: 10px;
+min-height: 100%;
+line-height: 24px;
+color: #3a3a3a;
+}
+.contacts-page-block p a {
+	color: #3a3a3a;
+}
+.contacts-page-block strong {
+	font-weight: 700;
+}
+.contacts-page {
+	padding-top: 47px;
+	padding-bottom: 90px;
+	background-color: #f2f4f9;
+}
+.contacts-page-block .list-social li a {
+	color: #00e676;
+}
+.contacts-page-block .list-social li:nth-child(2) a {
+color: #7360f2;
+}
+.contacts-page-block__line {
+	display: flex;
+	align-items: flex-start;
+}
+.contacts-page-block__right {
+	padding-left: 70px;
+}
+.contacts-page-block__center {
+	padding-left: 50px;
+}
+.contacts-page-block__center p {
+	line-height: 30px;
+}
+.block-form_simple::before {
+	display: none;
+}
+.block-form__name {
+	font-size: 18px;
+	padding-bottom: 15px;
+font-weight: 700;
+text-align: center;
+}
+.block-form__descr {
+	font-size: 14px;
+	padding-bottom: 25px;
+line-height: 1.2;
+font-weight: 500;
+	text-align: center;
+}
+.block-form_simple .btn-main {
+	font-size: 14px;
+font-weight: 500;
+letter-spacing: 0.05em;
+}
+.block-form_simple .checkbox {
+	margin-top: 14px;
+}
+.social-page {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.social-page li {
+	margin-right: 18px;
+}
+.social-page li:last-child {
+	margin-right: 0;
+}
+.social-page li a {
+	width: 47px;
+height: 47px;
+font-size: 19px;
+background-color: #5acbff;
+display: flex;
+align-items: center;
+justify-content: center;	
+color: #fff;
+border-radius: 50%;
+transition: all 0.3s; 
+}
+.social-page li a:hover {
+	box-shadow: 0 0 7px #5acbff;
+}
+.contacts-page-block .title-small {
+	padding-top: 37px;
+}
+.contacts-page-block .title-small:first-of-type {
+	padding-top: 0;
+}
+.payment {
+	padding-top: 45px;
+	padding-bottom: 54px;
+	background-color: #f2f4f9;
+}
+.payment p { 
+	line-height: 24px;
+}
+.payment__image img {
+	max-width: 100%;
+	box-shadow: 0px 7px 15px 0px rgba(58,58,58,0.15);
+border-radius: 0px 40px;
+	height: auto;
+}
+.block-form_payment::before {
+	display: none;
+}
+.block-form_payment {
+	max-width: 100%;
+}
+.block-form_payment .item-form input {
+	height: 42px;
+}
+.block-form_payment .item-form {
+	margin-bottom: 9px;
+}
+.block-form_payment .btn-main {
+	max-width: 267px;
+	display: flex;
+	margin: 0 auto;
+	margin-top: 11px;
+	font-size: 14px;
+font-weight: 500;
+letter-spacing: 0.05em;
+height: 50px;
+}
+.block-form_payment .row {
+	margin: 0 -5px;
+}
+.block-form_payment .row > div {
+	padding: 0 5px;
+}
+.block-form_payment .checkbox {
+	margin-top: 15px;
+}
+.block-form_payment .block-form__descr {
+	max-width: 300px;
+	margin: 0 auto;
+}
+.block-form_payment {
+	padding-left: 60px;
+	padding-right: 60px;
+}
+.row_payment {
+	margin-top: 42px;
+}
+.descr-middle {
+	padding-top: 18px;
+	padding-bottom: 20px;
+	font-weight: 700;
+}
