@@ -11,10 +11,28 @@
     padding-right: 40px;
 }
 .contacts-page-block__right {
-    padding-left: 42px;
+    padding-left: 42px; 
 }
 .contacts-page-block {
 	margin-right: 0;
+}
+.questions-block {
+	margin-right: 0;
+}
+.img-article_right {
+	max-width: 400px;
+}
+.article .news-title {
+	padding-right: 0;
+}
+.conditions-item__text {
+	max-width: 590px;
+}
+.conditions-img {
+	margin-left: -379px;
+}
+.conditions-top .title-section {
+	margin-bottom: 20px;
 }
 }
 /* Large Devices, Wide Screens */
@@ -136,6 +154,27 @@
     .transfer-table {
     	padding: 30px;
     }
+    .img-article_right {
+    max-width: 340px;
+}
+.article .subtitle {
+	margin-bottom: 15px;
+}
+.pricelist-article {
+	padding-right: 30px;
+}
+.img-article {
+	max-width: 300px;
+}
+.conditions-img {
+	display: none;
+}
+.conditions-top {
+	padding-bottom: 60px;
+}
+.conditions-page .row_transfer {
+	margin-bottom: 0;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -288,6 +327,78 @@
 }
 .transfer-table {
 	margin-bottom: 30px;
+}
+.article .title-section {
+    font-size: 26px;
+    line-height: 36px;
+    padding-bottom: 15px;
+}
+.article .subtitle {
+	line-height: 22px;
+}
+.block-article p {
+	line-height: 22px;
+}
+.pricelist-article ul li {
+    font-size: 15px;
+    line-height: 24px;
+}
+.pricelist-article ul li:before {
+	top: 10px;
+}
+.article .item-news {
+	margin-bottom: 0;
+	min-height: 100%;
+}
+.row_news-sidebar > div {
+	margin-top: 30px;
+}
+.pricelist-article__title {
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+.block-conditions {
+	display: block;
+}
+.conditions-links {
+	margin-left: 0;
+	max-width: 100%;
+	margin-top: 30px;
+}
+.conditions-item__text {
+	padding: 30px 20px;
+	max-width: 100%;
+}
+.conditions-page .row_transfer {
+	justify-content: center;
+}
+.conditions-page .row_transfer > div {
+	margin-top: 25px;
+}
+.conditions-page .item-transfer {
+	margin-bottom: 0;
+}
+.block-text_top {
+    margin-top: 40px;
+}
+.title-block {
+    font-size: 21px;
+}
+.block-text .title-block {
+    padding-bottom: 16px;
+}
+.block-text li {
+	margin-bottom: 15px;
+}
+.block-text i {
+	margin: 15px 0;
+}
+.block-text_main {
+	padding-left: 45px;
+	padding-right: 45px;
+}
+.block-text br {
+	display: none;
 }
 }
 
@@ -510,6 +621,42 @@
  	padding: 5px 10px;
  	font-size: 13px;
  }
+ .question {
+ 	padding-left: 20px;
+ }
+ .img-article {
+ 	float: none;
+ 	margin: 0;
+ 	max-width: 100%;
+ 	margin-bottom: 15px;
+ }
+ .article .item-news__content {
+ 	margin-top: 0;
+ }
+ .article .item-news {
+ 	max-width: 400px;
+ 	margin: 0 auto;
+ }
+ .block-text {
+ 	font-size: 15px;
+ 	line-height: 22px;
+ }
+ .block-text .col-lg-3 li,
+ .block-text li {
+ 	margin-bottom: 10px;
+ }
+ .block-text {
+ 	padding: 30px 20px;
+ }
+ .block-text i {
+ 	font-size: 14px;
+ }
+ .conditions-page .title-section {
+    padding-top: 30px;
+}
+.conditions-page {
+	padding-bottom: 50px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -781,6 +928,62 @@
     .transfer {
     	padding-bottom: 40px;
     }
+    .title-middle {
+    font-size: 21px;
+}
+.question-answer {
+	font-size: 14px;
+	line-height: 22px;
+	padding-right: 15px;
+}
+.question {
+	padding-left: 15px;
+}
+.block-article {
+	padding: 15px;
+}
+.article .title-section {
+    font-size: 22px;
+    line-height: 31px;
+    }
+    .pricelist-article {
+    	padding-left: 15px;
+    	padding-right: 15px;
+    }
+    .article .news-title {
+    	line-height: 25px;
+    }
+    .article .item-news {
+    	padding-bottom: 25px;
+    }
+    .conditions-links {
+    	padding: 20px 15px;
+    }
+    .conditions-links a {
+    	font-size: 14px;
+    }
+    .conditions-top { 
+    padding-bottom: 40px;
+     }
+     .conditions-page .item-transfer {
+    max-width: 167px;
+    font-size: 14px;
+    line-height: 23px;
+}
+.title-block {
+    font-size: 17px;
+    line-height: 25px;
+}
+.block-text .title-block {
+    padding-bottom: 12px;
+}
+.block-text {
+	padding: 25px 15px;
+}
+.title-section {
+    font-size: 24px;
+    line-height: 31px;
+}
 }
 
 /* Custom, iPhone Retina */

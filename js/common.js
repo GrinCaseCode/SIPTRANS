@@ -19,7 +19,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 }
 
 	//плавный скролл
-	$(".navigat li a").mPageScroll2id();
+	$(".conditions-links a").mPageScroll2id();
 
 
 	//кнопка sandwich
@@ -111,6 +111,23 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		centerMode: true,
 		
 	});
+
+	$(".question-name").click(function(e) {
+		e.preventDefault();
+		$(".question").removeClass("active");
+
+		$(".question-answer").slideUp(200);
+		if ($(this).siblings(".question-answer").is(":hidden")) {
+			$(this).parent().addClass("active");
+			$(this).siblings(".question-answer").slideDown(200);
+		
+		} else {
+			$(this).parent().removeClass("active");
+		$(this).siblings(".question-answer").slideUp(200);
+		
+		}
+
+        });
 
 	$(".input-phone").mask("+7 (999) 999-99-99");
 
